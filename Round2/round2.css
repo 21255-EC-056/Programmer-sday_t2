@@ -1,0 +1,56 @@
+.container{
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(https://wallpapercave.com/dwp2x/wp6072817.jpg);
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 8px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    border-color: orange;
+    border:2px solid darkred;
+    color: white;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    border:5px solid yellow;
+
+}
+
+button:hover {
+    background-color: blueviolet;
+
+}
+p{
+    font-size: 50px;
+    color:purple;
+}
+h1{
+    color: blueviolet;
+    text-shadow: 2 3 5 5;
+
+} 
